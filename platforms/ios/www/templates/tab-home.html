@@ -1,0 +1,26 @@
+<ion-view title="Home">
+  <ion-content class="has-header">
+    <!-- Display current location's weather data-->
+    
+    <h5><weather-icon icon="current.icon" id="current-icon"></weather-icon> </h5>
+
+  
+  			 
+
+			      <img class="weather" ng-src ="img/{{current.currently.summary}}.png" >
+
+         <!--   <div class="weather-type">{{current.currently.summary}}</div>-->
+
+   <div class="list card">
+     <div class="item item-divider ">
+   {{city}}
+  </div>
+   	 <a class="item item-icon-left" ><i class="icon ion-thermometer"></i>Current Temperature<p>{{current.currently.temperature}}</p></a>
+         <a class="item item-icon-left" ><i class="icon ion-ios7-partlysunny-outline"></i>Current Weather<p>{{current.currently.summary}}</p></a>
+   </div>	
+
+       
+   <!-- <p>The temperature now is</p>  
+  <span class="large">{{current.currently.temperature}} ° </span>-->
+  </ion-content>
+</ion-view>

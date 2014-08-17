@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+.weather{
+
+	width:120px;
+	height:120px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+   
+  .weather-type{
+	width:200px; 
+	height:200px; 
+	position: fixed; 
+	top: 50%; 
+	left: 50%;
+	 margin-top: -100px;
+	  margin-left: -100px; 
+
+	  }
